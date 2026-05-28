@@ -1,0 +1,30 @@
+# Cable-Stayed Bridge Configuration
+
+structure:
+  type: "cable_stayed_bridge"
+  span_length: 470
+  tower_height: 120
+  deck_width: 28
+  n_cables: 32
+
+materials:
+  deck: "steel_S355"
+  tower: "concrete_C40"
+  cables: "cable_steel"
+
+loads:
+  dead_load: 250e3
+  live_load: 50e3
+  wind_load: 1.5e3
+  thermal_range: 40
+
+sensor_layout:
+  accelerometers: 12
+  strain_gauges: 24
+  load_cells: 8
+  displacement_sensors: 4
+
+safety_targets:
+  beta_target: 3.8
+  lambda_cr_min: 2.0
+  d_limit: 0.80

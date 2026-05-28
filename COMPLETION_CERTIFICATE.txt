@@ -1,0 +1,94 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                    TOWER-CORE COMPLETION CERTIFICATE                          ║
+║                                                                               ║
+║     A Critical Framework for Structural Integrity Assessment, Dynamic        ║
+║     Stability Monitoring, and Safety Governance in Vertical Tower Systems    ║
+║                                                                               ║
+║                           v1.0.0                                              ║
+║                           May 2026                                            ║
+║                                                                               ║
+║                           DOI: 10.5281/zenodo.20394041                        ║
+║                           Series: TOWER-SAFETY-01 · Project 1                 ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+This certificate formally acknowledges the completion of Project TOWER-CORE,
+the first installment of the TOWER-SAFETY research series (TOWER-SAFETY-01).
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ PROJECT OVERVIEW                                                              │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+Project Code:     TOWER-CORE (TOWER-SAFETY-01)
+Version:          1.0.0
+Principal Investigator: Samir Baladi
+Affiliation:      Ronin Institute / Rite of Renaissance
+Submission Date:  May 2026
+Status:           ✅ COMPLETED
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ VALIDATION RESULTS                                                            │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────────────────────┬─────────────────────────────────────────────┐
+│ Metric                          │ Value                                       │
+├─────────────────────────────────┼─────────────────────────────────────────────┤
+│ Mean TSII Accuracy              │ ±2.83%                                      │
+│ Frequency Detection Rate        │ 95.4%                                       │
+│ Mean Fatigue MAE                │ 2.37%                                       │
+│ Mean F_stability Error          │ ±3.9%                                       │
+│ TSII Warning Lead Time          │ 24-48 hours                                 │
+└─────────────────────────────────┴─────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ SYSTEM ARCHITECTURE (3 Modules)                                               │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────────────────────┬─────────────────────────────────────────────┐
+│ Module                          │ Function                                    │
+├─────────────────────────────────┼─────────────────────────────────────────────┤
+│ DFMM (Module 01)                │ Dynamic Frequency Monitoring               │
+│ SJFAM (Module 02)               │ Structural Joint Fatigue Assessment        │
+│ GSOAM (Module 03)               │ Global Stability & Overturning Assessment  │
+└─────────────────────────────────┴─────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ DEPLOYMENT PLATFORMS                                                          │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────┬─────────────────────────────────────────────────────────────┐
+│ Platform        │ URL                                                         │
+├─────────────────┼─────────────────────────────────────────────────────────────┤
+│ GitHub (Primary)│ https://github.com/gitdeeper12/TOWER-CORE                   │
+│ GitLab (Mirror) │ https://gitlab.com/gitdeeper12/TOWER-CORE                   │
+│ PyPI            │ https://pypi.org/project/tower-core-engine                  │
+│ Netlify (Web)   │ https://tower-core.netlify.app                              │
+│ Zenodo (DOI)    │ https://doi.org/10.5281/zenodo.20394041                     │
+└─────────────────┴─────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ PRINCIPAL INVESTIGATOR                                                        │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+Name:     Samir Baladi
+Email:    gitdeeper@gmail.com
+ORCID:    0009-0003-8903-0029
+Web:      https://tower-core.netlify.app
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║   "Structural integrity in a vertical tower is not a property frozen at      ║
+║    commissioning — it is a continuously evolving state requiring continuous  ║
+║    quantitative assessment. A tower operating under sustained wind loading   ║
+║    is not in static equilibrium — it is a dynamically evolving system        ║
+║    accumulating fatigue damage, experiencing natural frequency drift,        ║
+║    and approaching or receding from its overturning stability limit in       ║
+║    real time. TOWER-CORE quantifies these changes continuously and governs   ║
+║    the safety margin accordingly."                                           ║
+║                                                                               ║
+║                              — Samir Baladi, May 2026                         ║
+║                                                                               ║
+║                              ✅ COMPLETED                                     ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝

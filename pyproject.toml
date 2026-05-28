@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "load-span-engine"
+version = "1.0.0"
+description = "Dynamic Load Redistribution Analysis and Long-Span Structural Stability Assessment with AI-Assisted Analytical Support"
+readme = "README.md"
+license = "MIT"
+authors = [
+    {name = "Samir Baladi", email = "gitdeeper@gmail.com"}
+]
+keywords = [
+    "structural-engineering", "reliability-analysis", "fatigue-analysis",
+    "buckling-analysis", "structural-health-monitoring", "ai-assisted",
+    "long-span-structures", "bridges", "progressive-collapse"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Engineering",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "pandas>=1.3.0",
+    "matplotlib>=3.4.0",
+    "scikit-learn>=1.0.0",
+    "xgboost>=1.5.0",
+    "streamlit>=1.12.0",
+    "plotly>=5.5.0",
+    "pyyaml>=5.4.0",
+    "pydantic>=1.9.0",
+    "typing-extensions>=4.0.0"
+]
+
+[project.urls]
+Homepage = "https://load-span.netlify.app"
+Documentation = "https://load-span.netlify.app/documentation"
+Repository = "https://github.com/gitdeeper12/LOAD-SPAN"
+Issues = "https://github.com/gitdeeper12/LOAD-SPAN/issues"
+DOI = "https://doi.org/10.5281/zenodo.20422430"
+
+[project.scripts]
+load-span = "load_span.cli:main"
+load-span-dashboard = "load_span.monitoring.app:run"
+
+[tool.setuptools]
+packages = ["load_span", "load_span.modules", "load_span.stiffness", "load_span.stability", "load_span.fatigue", "load_span.reliability", "load_span.collapse", "load_span.ai_support", "load_span.degradation", "load_span.loading", "load_span.sensors", "load_span.utils", "load_span.monitoring", "load_span.monitoring.components", "load_span.archival", "load_span.simulation"]
+
+[tool.setuptools.package-data]
+load_span = ["py.typed"]

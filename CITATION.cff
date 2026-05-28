@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use LOAD-SPAN in your research, please cite it using these metadata."
+title: "LOAD-SPAN: Dynamic Load Redistribution Analysis and Long-Span Structural Stability Assessment with AI-Assisted Analytical Support"
+version: 1.0.0
+doi: 10.5281/zenodo.20422430
+date-released: 2026-05-28
+authors:
+  - family-names: Baladi
+    given-names: Samir
+    email: gitdeeper@gmail.com
+    orcid: https://orcid.org/0009-0003-8903-0029
+    affiliation: Ronin Institute / Rite of Renaissance
+repository-code: https://github.com/gitdeeper12/LOAD-SPAN
+url: https://load-span.netlify.app
+abstract: "LOAD-SPAN is a dynamic load redistribution analysis and structural stability assessment framework for long-span systems, grounded in classical structural mechanics, fracture mechanics, and reliability engineering, with an AI-assisted analytical support layer operating under strict physical constraints."
+license: MIT
+keywords:
+  - structural-engineering
+  - reliability-analysis
+  - fatigue-analysis
+  - buckling-analysis
+  - structural-health-monitoring
+  - long-span-structures
+  - bridges
+  - progressive-collapse
+type: software

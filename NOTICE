@@ -1,0 +1,27 @@
+LOAD-SPAN
+Dynamic Load Redistribution Analysis and Long-Span Structural Stability Assessment
+
+Copyright (c) 2026 Samir Baladi
+All rights reserved.
+
+This product includes software developed by:
+- NumPy Developers (BSD License)
+- SciPy Developers (BSD License)
+- Pandas Developers (BSD License)
+- scikit-learn Developers (BSD License)
+- XGBoost Contributors (Apache License 2.0)
+- Streamlit Contributors (Apache License 2.0)
+
+For complete license information, see LICENSE file.
+
+This product includes code derived from:
+- Eurocode 3: Design of Steel Structures (EN 1993-1-9)
+- IIW Recommendations for Fatigue Design of Welded Joints
+- GSA Progressive Collapse Analysis Guidelines
+
+Use of this software for structural safety assessments must be performed by
+qualified engineers. The author assumes no liability for misuse.
+
+Contact: gitdeeper@gmail.com
+Project: https://github.com/gitdeeper12/LOAD-SPAN
+DOI: 10.5281/zenodo.20422430

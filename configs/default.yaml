@@ -1,0 +1,46 @@
+# LOAD-SPAN Default Configuration
+# Version: 1.0.0
+
+project:
+  name: "LOAD-SPAN"
+  version: "1.0.0"
+  environment: "production"
+
+sensors:
+  sampling_rate: 200
+  buffer_size: 4096
+  accelerometer_range: 16
+  strain_gauge_type: "vibrating_wire"
+
+modules:
+  dlrm:
+    redundancy_min: 0.70
+    redistribution_warn: 0.20
+    max_dcr: 2.0
+  
+  lssam:
+    lambda_cr_min: 2.0
+    beta_min: 3.5
+    gamma_max: 0.15
+  
+  farm:
+    d_limit: 0.80
+    d_crit: 1.00
+    sn_class: "FAT90"
+  
+  aisl:
+    forecast_horizon: 48
+    anomaly_threshold: 0.15
+    physics_constrained: true
+
+thresholds:
+  lsii_steady: 0.90
+  lsii_monitoring: 0.75
+  lsii_mitigation: 0.65
+  beta_target: 3.8
+  lambda_target: 2.0
+
+logging:
+  level: "INFO"
+  format: "json"
+  output: "logs/load_span.log"

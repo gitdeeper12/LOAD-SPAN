@@ -1,0 +1,38 @@
+include README.md
+include LICENSE
+include VERSION
+include NOTICE
+include CHANGELOG.md
+include AUTHORS.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include CITATION.cff
+include .env.example
+include .pre-commit-config.yaml
+
+# Include configuration files
+include pyproject.toml
+include setup.cfg
+include requirements*.txt
+
+# Include documentation
+recursive-include docs *.md *.rst *.html
+recursive-include paper *.pdf *.docx
+
+# Include data files
+recursive-include load_span/configs *.yaml *.yml
+recursive-include simulation *.json
+recursive-include examples *.ipynb *.py
+
+# Include monitoring assets
+recursive-include load_span/monitoring/assets *
+
+# Exclude unnecessary files
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
+prune tests
+prune docs/_build
+prune .git
+prune .github
